@@ -1,0 +1,868 @@
+{
+	"folders": [
+		{
+			"name": "DungeonRaider",
+			"path": "."
+		},
+		{
+			"name": "UE5",
+			"path": "/mnt/data2/ue/ue_5_3_2/UnrealEngine"
+		}
+	],
+	"settings": {
+		"typescript.tsc.autoDetect": "off",
+		"npm.autoDetect": "off"
+	},
+	"extensions": {
+		"recommendations": [
+			"ms-vscode.cpptools",
+			"ms-dotnettools.csharp",
+			"vadimcn.vscode-lldb",
+			"ms-vscode.mono-debug",
+			"dfarley1.file-picker"
+		]
+	},
+	"tasks": {
+		"version": "2.0.0",
+		"tasks": [
+			{
+				"label": "DungeonRaider Linux Debug Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"DungeonRaider",
+					"Linux",
+					"Debug",
+					"/home/knight/git/ue/DungeonRaider/DungeonRaider.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/data2/ue/ue_5_3_2/UnrealEngine"
+				}
+			},
+			{
+				"label": "DungeonRaider Linux Debug Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"DungeonRaider",
+					"Linux",
+					"Debug",
+					"/home/knight/git/ue/DungeonRaider/DungeonRaider.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"DungeonRaider Linux Debug Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/data2/ue/ue_5_3_2/UnrealEngine"
+				}
+			},
+			{
+				"label": "DungeonRaider Linux Debug Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"DungeonRaider",
+					"Linux",
+					"Debug",
+					"/home/knight/git/ue/DungeonRaider/DungeonRaider.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/data2/ue/ue_5_3_2/UnrealEngine"
+				}
+			},
+			{
+				"label": "DungeonRaider Linux DebugGame Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"DungeonRaider",
+					"Linux",
+					"DebugGame",
+					"/home/knight/git/ue/DungeonRaider/DungeonRaider.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/data2/ue/ue_5_3_2/UnrealEngine"
+				}
+			},
+			{
+				"label": "DungeonRaider Linux DebugGame Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"DungeonRaider",
+					"Linux",
+					"DebugGame",
+					"/home/knight/git/ue/DungeonRaider/DungeonRaider.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"DungeonRaider Linux DebugGame Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/data2/ue/ue_5_3_2/UnrealEngine"
+				}
+			},
+			{
+				"label": "DungeonRaider Linux DebugGame Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"DungeonRaider",
+					"Linux",
+					"DebugGame",
+					"/home/knight/git/ue/DungeonRaider/DungeonRaider.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/data2/ue/ue_5_3_2/UnrealEngine"
+				}
+			},
+			{
+				"label": "DungeonRaider Linux Development Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"DungeonRaider",
+					"Linux",
+					"Development",
+					"/home/knight/git/ue/DungeonRaider/DungeonRaider.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/data2/ue/ue_5_3_2/UnrealEngine"
+				}
+			},
+			{
+				"label": "DungeonRaider Linux Development Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"DungeonRaider",
+					"Linux",
+					"Development",
+					"/home/knight/git/ue/DungeonRaider/DungeonRaider.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"DungeonRaider Linux Development Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/data2/ue/ue_5_3_2/UnrealEngine"
+				}
+			},
+			{
+				"label": "DungeonRaider Linux Development Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"DungeonRaider",
+					"Linux",
+					"Development",
+					"/home/knight/git/ue/DungeonRaider/DungeonRaider.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/data2/ue/ue_5_3_2/UnrealEngine"
+				}
+			},
+			{
+				"label": "DungeonRaider Linux Test Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"DungeonRaider",
+					"Linux",
+					"Test",
+					"/home/knight/git/ue/DungeonRaider/DungeonRaider.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/data2/ue/ue_5_3_2/UnrealEngine"
+				}
+			},
+			{
+				"label": "DungeonRaider Linux Test Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"DungeonRaider",
+					"Linux",
+					"Test",
+					"/home/knight/git/ue/DungeonRaider/DungeonRaider.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"DungeonRaider Linux Test Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/data2/ue/ue_5_3_2/UnrealEngine"
+				}
+			},
+			{
+				"label": "DungeonRaider Linux Test Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"DungeonRaider",
+					"Linux",
+					"Test",
+					"/home/knight/git/ue/DungeonRaider/DungeonRaider.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/data2/ue/ue_5_3_2/UnrealEngine"
+				}
+			},
+			{
+				"label": "DungeonRaider Linux Shipping Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"DungeonRaider",
+					"Linux",
+					"Shipping",
+					"/home/knight/git/ue/DungeonRaider/DungeonRaider.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/data2/ue/ue_5_3_2/UnrealEngine"
+				}
+			},
+			{
+				"label": "DungeonRaider Linux Shipping Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"DungeonRaider",
+					"Linux",
+					"Shipping",
+					"/home/knight/git/ue/DungeonRaider/DungeonRaider.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"DungeonRaider Linux Shipping Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/data2/ue/ue_5_3_2/UnrealEngine"
+				}
+			},
+			{
+				"label": "DungeonRaider Linux Shipping Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"DungeonRaider",
+					"Linux",
+					"Shipping",
+					"/home/knight/git/ue/DungeonRaider/DungeonRaider.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/data2/ue/ue_5_3_2/UnrealEngine"
+				}
+			},
+			{
+				"label": "DungeonRaider LinuxArm64 Debug Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"DungeonRaider",
+					"LinuxArm64",
+					"Debug",
+					"/home/knight/git/ue/DungeonRaider/DungeonRaider.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/data2/ue/ue_5_3_2/UnrealEngine"
+				}
+			},
+			{
+				"label": "DungeonRaider LinuxArm64 Debug Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"DungeonRaider",
+					"LinuxArm64",
+					"Debug",
+					"/home/knight/git/ue/DungeonRaider/DungeonRaider.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"DungeonRaider LinuxArm64 Debug Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/data2/ue/ue_5_3_2/UnrealEngine"
+				}
+			},
+			{
+				"label": "DungeonRaider LinuxArm64 Debug Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"DungeonRaider",
+					"LinuxArm64",
+					"Debug",
+					"/home/knight/git/ue/DungeonRaider/DungeonRaider.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/data2/ue/ue_5_3_2/UnrealEngine"
+				}
+			},
+			{
+				"label": "DungeonRaider LinuxArm64 DebugGame Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"DungeonRaider",
+					"LinuxArm64",
+					"DebugGame",
+					"/home/knight/git/ue/DungeonRaider/DungeonRaider.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/data2/ue/ue_5_3_2/UnrealEngine"
+				}
+			},
+			{
+				"label": "DungeonRaider LinuxArm64 DebugGame Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"DungeonRaider",
+					"LinuxArm64",
+					"DebugGame",
+					"/home/knight/git/ue/DungeonRaider/DungeonRaider.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"DungeonRaider LinuxArm64 DebugGame Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/data2/ue/ue_5_3_2/UnrealEngine"
+				}
+			},
+			{
+				"label": "DungeonRaider LinuxArm64 DebugGame Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"DungeonRaider",
+					"LinuxArm64",
+					"DebugGame",
+					"/home/knight/git/ue/DungeonRaider/DungeonRaider.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/data2/ue/ue_5_3_2/UnrealEngine"
+				}
+			},
+			{
+				"label": "DungeonRaider LinuxArm64 Development Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"DungeonRaider",
+					"LinuxArm64",
+					"Development",
+					"/home/knight/git/ue/DungeonRaider/DungeonRaider.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/data2/ue/ue_5_3_2/UnrealEngine"
+				}
+			},
+			{
+				"label": "DungeonRaider LinuxArm64 Development Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"DungeonRaider",
+					"LinuxArm64",
+					"Development",
+					"/home/knight/git/ue/DungeonRaider/DungeonRaider.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"DungeonRaider LinuxArm64 Development Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/data2/ue/ue_5_3_2/UnrealEngine"
+				}
+			},
+			{
+				"label": "DungeonRaider LinuxArm64 Development Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"DungeonRaider",
+					"LinuxArm64",
+					"Development",
+					"/home/knight/git/ue/DungeonRaider/DungeonRaider.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/data2/ue/ue_5_3_2/UnrealEngine"
+				}
+			},
+			{
+				"label": "DungeonRaider LinuxArm64 Test Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"DungeonRaider",
+					"LinuxArm64",
+					"Test",
+					"/home/knight/git/ue/DungeonRaider/DungeonRaider.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/data2/ue/ue_5_3_2/UnrealEngine"
+				}
+			},
+			{
+				"label": "DungeonRaider LinuxArm64 Test Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"DungeonRaider",
+					"LinuxArm64",
+					"Test",
+					"/home/knight/git/ue/DungeonRaider/DungeonRaider.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"DungeonRaider LinuxArm64 Test Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/data2/ue/ue_5_3_2/UnrealEngine"
+				}
+			},
+			{
+				"label": "DungeonRaider LinuxArm64 Test Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"DungeonRaider",
+					"LinuxArm64",
+					"Test",
+					"/home/knight/git/ue/DungeonRaider/DungeonRaider.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/data2/ue/ue_5_3_2/UnrealEngine"
+				}
+			},
+			{
+				"label": "DungeonRaider LinuxArm64 Shipping Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"DungeonRaider",
+					"LinuxArm64",
+					"Shipping",
+					"/home/knight/git/ue/DungeonRaider/DungeonRaider.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/data2/ue/ue_5_3_2/UnrealEngine"
+				}
+			},
+			{
+				"label": "DungeonRaider LinuxArm64 Shipping Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"DungeonRaider",
+					"LinuxArm64",
+					"Shipping",
+					"/home/knight/git/ue/DungeonRaider/DungeonRaider.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"DungeonRaider LinuxArm64 Shipping Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/data2/ue/ue_5_3_2/UnrealEngine"
+				}
+			},
+			{
+				"label": "DungeonRaider LinuxArm64 Shipping Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"DungeonRaider",
+					"LinuxArm64",
+					"Shipping",
+					"/home/knight/git/ue/DungeonRaider/DungeonRaider.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/data2/ue/ue_5_3_2/UnrealEngine"
+				}
+			},
+			{
+				"label": "DungeonRaiderEditor Linux Debug Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"DungeonRaiderEditor",
+					"Linux",
+					"Debug",
+					"/home/knight/git/ue/DungeonRaider/DungeonRaider.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/data2/ue/ue_5_3_2/UnrealEngine"
+				}
+			},
+			{
+				"label": "DungeonRaiderEditor Linux Debug Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"DungeonRaiderEditor",
+					"Linux",
+					"Debug",
+					"/home/knight/git/ue/DungeonRaider/DungeonRaider.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"DungeonRaiderEditor Linux Debug Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/data2/ue/ue_5_3_2/UnrealEngine"
+				}
+			},
+			{
+				"label": "DungeonRaiderEditor Linux Debug Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"DungeonRaiderEditor",
+					"Linux",
+					"Debug",
+					"/home/knight/git/ue/DungeonRaider/DungeonRaider.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/data2/ue/ue_5_3_2/UnrealEngine"
+				}
+			},
+			{
+				"label": "DungeonRaiderEditor Linux DebugGame Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"DungeonRaiderEditor",
+					"Linux",
+					"DebugGame",
+					"/home/knight/git/ue/DungeonRaider/DungeonRaider.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/data2/ue/ue_5_3_2/UnrealEngine"
+				}
+			},
+			{
+				"label": "DungeonRaiderEditor Linux DebugGame Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"DungeonRaiderEditor",
+					"Linux",
+					"DebugGame",
+					"/home/knight/git/ue/DungeonRaider/DungeonRaider.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"DungeonRaiderEditor Linux DebugGame Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/data2/ue/ue_5_3_2/UnrealEngine"
+				}
+			},
+			{
+				"label": "DungeonRaiderEditor Linux DebugGame Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"DungeonRaiderEditor",
+					"Linux",
+					"DebugGame",
+					"/home/knight/git/ue/DungeonRaider/DungeonRaider.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/data2/ue/ue_5_3_2/UnrealEngine"
+				}
+			},
+			{
+				"label": "DungeonRaiderEditor Linux Development Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"DungeonRaiderEditor",
+					"Linux",
+					"Development",
+					"/home/knight/git/ue/DungeonRaider/DungeonRaider.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/data2/ue/ue_5_3_2/UnrealEngine"
+				}
+			},
+			{
+				"label": "DungeonRaiderEditor Linux Development Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"DungeonRaiderEditor",
+					"Linux",
+					"Development",
+					"/home/knight/git/ue/DungeonRaider/DungeonRaider.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"DungeonRaiderEditor Linux Development Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/data2/ue/ue_5_3_2/UnrealEngine"
+				}
+			},
+			{
+				"label": "DungeonRaiderEditor Linux Development Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"DungeonRaiderEditor",
+					"Linux",
+					"Development",
+					"/home/knight/git/ue/DungeonRaider/DungeonRaider.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/data2/ue/ue_5_3_2/UnrealEngine"
+				}
+			}
+		]
+	},
+	"launch": {
+		"version": "0.2.0",
+		"configurations": [
+			{
+				"name": "Launch DungeonRaider (Debug)",
+				"request": "launch",
+				"program": "/home/knight/git/ue/DungeonRaider/Binaries/Linux/DungeonRaider-Linux-Debug",
+				"preLaunchTask": "DungeonRaider Linux Debug Build",
+				"args": [
+				],
+				"cwd": "/mnt/data2/ue/ue_5_3_2/UnrealEngine",
+				"type": "cppdbg",
+				"visualizerFile": "/mnt/data2/ue/ue_5_3_2/UnrealEngine/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+				"showDisplayString": true
+			},
+			{
+				"name": "Launch DungeonRaider (DebugGame)",
+				"request": "launch",
+				"program": "/home/knight/git/ue/DungeonRaider/Binaries/Linux/DungeonRaider-Linux-DebugGame",
+				"preLaunchTask": "DungeonRaider Linux DebugGame Build",
+				"args": [
+				],
+				"cwd": "/mnt/data2/ue/ue_5_3_2/UnrealEngine",
+				"type": "cppdbg",
+				"visualizerFile": "/mnt/data2/ue/ue_5_3_2/UnrealEngine/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+				"showDisplayString": true
+			},
+			{
+				"name": "Launch DungeonRaider (Development)",
+				"request": "launch",
+				"program": "/home/knight/git/ue/DungeonRaider/Binaries/Linux/DungeonRaider",
+				"preLaunchTask": "DungeonRaider Linux Development Build",
+				"args": [
+				],
+				"cwd": "/mnt/data2/ue/ue_5_3_2/UnrealEngine",
+				"type": "cppdbg",
+				"visualizerFile": "/mnt/data2/ue/ue_5_3_2/UnrealEngine/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+				"showDisplayString": true
+			},
+			{
+				"name": "Launch DungeonRaider (Test)",
+				"request": "launch",
+				"program": "/home/knight/git/ue/DungeonRaider/Binaries/Linux/DungeonRaider-Linux-Test",
+				"preLaunchTask": "DungeonRaider Linux Test Build",
+				"args": [
+				],
+				"cwd": "/mnt/data2/ue/ue_5_3_2/UnrealEngine",
+				"type": "cppdbg",
+				"visualizerFile": "/mnt/data2/ue/ue_5_3_2/UnrealEngine/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+				"showDisplayString": true
+			},
+			{
+				"name": "Launch DungeonRaider (Shipping)",
+				"request": "launch",
+				"program": "/home/knight/git/ue/DungeonRaider/Binaries/Linux/DungeonRaider-Linux-Shipping",
+				"preLaunchTask": "DungeonRaider Linux Shipping Build",
+				"args": [
+				],
+				"cwd": "/mnt/data2/ue/ue_5_3_2/UnrealEngine",
+				"type": "cppdbg",
+				"visualizerFile": "/mnt/data2/ue/ue_5_3_2/UnrealEngine/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+				"showDisplayString": true
+			},
+			{
+				"name": "Launch DungeonRaiderEditor (Debug)",
+				"request": "launch",
+				"program": "/mnt/data2/ue/ue_5_3_2/UnrealEngine/Engine/Binaries/Linux/UnrealEditor-Linux-Debug",
+				"preLaunchTask": "DungeonRaiderEditor Linux Debug Build",
+				"args": [
+					"/home/knight/git/ue/DungeonRaider/DungeonRaider.uproject"
+				],
+				"cwd": "/mnt/data2/ue/ue_5_3_2/UnrealEngine",
+				"type": "cppdbg",
+				"visualizerFile": "/mnt/data2/ue/ue_5_3_2/UnrealEngine/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+				"showDisplayString": true
+			},
+			{
+				"name": "Launch DungeonRaiderEditor (DebugGame)",
+				"request": "launch",
+				"program": "/mnt/data2/ue/ue_5_3_2/UnrealEngine/Engine/Binaries/Linux/UnrealEditor-Linux-DebugGame",
+				"preLaunchTask": "DungeonRaiderEditor Linux DebugGame Build",
+				"args": [
+					"/home/knight/git/ue/DungeonRaider/DungeonRaider.uproject"
+				],
+				"cwd": "/mnt/data2/ue/ue_5_3_2/UnrealEngine",
+				"type": "cppdbg",
+				"visualizerFile": "/mnt/data2/ue/ue_5_3_2/UnrealEngine/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+				"showDisplayString": true
+			},
+			{
+				"name": "Launch DungeonRaiderEditor (Development)",
+				"request": "launch",
+				"program": "/mnt/data2/ue/ue_5_3_2/UnrealEngine/Engine/Binaries/Linux/UnrealEditor",
+				"preLaunchTask": "DungeonRaiderEditor Linux Development Build",
+				"args": [
+					"/home/knight/git/ue/DungeonRaider/DungeonRaider.uproject"
+				],
+				"cwd": "/mnt/data2/ue/ue_5_3_2/UnrealEngine",
+				"type": "cppdbg",
+				"visualizerFile": "/mnt/data2/ue/ue_5_3_2/UnrealEngine/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+				"showDisplayString": true
+			},
+			{
+				"name": "Generate Project Files",
+				"type": "coreclr",
+				"request": "launch",
+				"preLaunchTask": "UnrealBuildTool Linux Development Build",
+				"program": "/mnt/data2/ue/ue_5_3_2/UnrealEngine/Engine/Build/BatchFiles/RunUBT.bat",
+				"args": [
+					"-projectfiles",
+					"-vscode",
+					"-project=/home/knight/git/ue/DungeonRaider/DungeonRaider.uproject",
+					"-game",
+					"-engine",
+					"-dotnet"
+				],
+				"console": "internalConsole",
+				"internalConsoleOptions": "openOnSessionStart",
+				"stopAtEntry": false,
+				"cwd": "/mnt/data2/ue/ue_5_3_2/UnrealEngine"
+			}
+		]
+	}
+}

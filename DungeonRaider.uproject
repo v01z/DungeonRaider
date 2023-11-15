@@ -1,0 +1,22 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{BCC359A6-87CB-442A-81CE-EEF509C78E4D}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "DungeonRaider",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "ModelingToolsEditorMode",
+			"Enabled": true,
+			"TargetAllowList": [
+				"Editor"
+			]
+		}
+	]
+}
