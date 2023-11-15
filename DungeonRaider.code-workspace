@@ -6,7 +6,7 @@
 		},
 		{
 			"name": "UE5",
-			"path": "/mnt/data2/ue/ue_5_3_2/UnrealEngine"
+			"path": "/mnt/big_ssd/git/ue/UnrealEngine"
 		}
 	],
 	"settings": {
@@ -33,13 +33,13 @@
 					"DungeonRaider",
 					"Linux",
 					"Debug",
-					"/home/knight/git/ue/DungeonRaider/DungeonRaider.uproject",
+					"/home/bincat/git/ue/DungeonRaider/DungeonRaider.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
 				"type": "shell",
 				"options": {
-					"cwd": "/mnt/data2/ue/ue_5_3_2/UnrealEngine"
+					"cwd": "/mnt/big_ssd/git/ue/UnrealEngine"
 				}
 			},
 			{
@@ -50,7 +50,7 @@
 					"DungeonRaider",
 					"Linux",
 					"Debug",
-					"/home/knight/git/ue/DungeonRaider/DungeonRaider.uproject",
+					"/home/bincat/git/ue/DungeonRaider/DungeonRaider.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -59,7 +59,7 @@
 				],
 				"type": "shell",
 				"options": {
-					"cwd": "/mnt/data2/ue/ue_5_3_2/UnrealEngine"
+					"cwd": "/mnt/big_ssd/git/ue/UnrealEngine"
 				}
 			},
 			{
@@ -70,14 +70,14 @@
 					"DungeonRaider",
 					"Linux",
 					"Debug",
-					"/home/knight/git/ue/DungeonRaider/DungeonRaider.uproject",
+					"/home/bincat/git/ue/DungeonRaider/DungeonRaider.uproject",
 					"-waitmutex",
 					"-clean"
 				],
 				"problemMatcher": "$msCompile",
 				"type": "shell",
 				"options": {
-					"cwd": "/mnt/data2/ue/ue_5_3_2/UnrealEngine"
+					"cwd": "/mnt/big_ssd/git/ue/UnrealEngine"
 				}
 			},
 			{
@@ -88,13 +88,13 @@
 					"DungeonRaider",
 					"Linux",
 					"DebugGame",
-					"/home/knight/git/ue/DungeonRaider/DungeonRaider.uproject",
+					"/home/bincat/git/ue/DungeonRaider/DungeonRaider.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
 				"type": "shell",
 				"options": {
-					"cwd": "/mnt/data2/ue/ue_5_3_2/UnrealEngine"
+					"cwd": "/mnt/big_ssd/git/ue/UnrealEngine"
 				}
 			},
 			{
@@ -105,7 +105,7 @@
 					"DungeonRaider",
 					"Linux",
 					"DebugGame",
-					"/home/knight/git/ue/DungeonRaider/DungeonRaider.uproject",
+					"/home/bincat/git/ue/DungeonRaider/DungeonRaider.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -114,7 +114,7 @@
 				],
 				"type": "shell",
 				"options": {
-					"cwd": "/mnt/data2/ue/ue_5_3_2/UnrealEngine"
+					"cwd": "/mnt/big_ssd/git/ue/UnrealEngine"
 				}
 			},
 			{
@@ -125,14 +125,14 @@
 					"DungeonRaider",
 					"Linux",
 					"DebugGame",
-					"/home/knight/git/ue/DungeonRaider/DungeonRaider.uproject",
+					"/home/bincat/git/ue/DungeonRaider/DungeonRaider.uproject",
 					"-waitmutex",
 					"-clean"
 				],
 				"problemMatcher": "$msCompile",
 				"type": "shell",
 				"options": {
-					"cwd": "/mnt/data2/ue/ue_5_3_2/UnrealEngine"
+					"cwd": "/mnt/big_ssd/git/ue/UnrealEngine"
 				}
 			},
 			{
@@ -143,13 +143,13 @@
 					"DungeonRaider",
 					"Linux",
 					"Development",
-					"/home/knight/git/ue/DungeonRaider/DungeonRaider.uproject",
+					"/home/bincat/git/ue/DungeonRaider/DungeonRaider.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
 				"type": "shell",
 				"options": {
-					"cwd": "/mnt/data2/ue/ue_5_3_2/UnrealEngine"
+					"cwd": "/mnt/big_ssd/git/ue/UnrealEngine"
 				}
 			},
 			{
@@ -160,7 +160,7 @@
 					"DungeonRaider",
 					"Linux",
 					"Development",
-					"/home/knight/git/ue/DungeonRaider/DungeonRaider.uproject",
+					"/home/bincat/git/ue/DungeonRaider/DungeonRaider.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -169,7 +169,7 @@
 				],
 				"type": "shell",
 				"options": {
-					"cwd": "/mnt/data2/ue/ue_5_3_2/UnrealEngine"
+					"cwd": "/mnt/big_ssd/git/ue/UnrealEngine"
 				}
 			},
 			{
@@ -180,14 +180,14 @@
 					"DungeonRaider",
 					"Linux",
 					"Development",
-					"/home/knight/git/ue/DungeonRaider/DungeonRaider.uproject",
+					"/home/bincat/git/ue/DungeonRaider/DungeonRaider.uproject",
 					"-waitmutex",
 					"-clean"
 				],
 				"problemMatcher": "$msCompile",
 				"type": "shell",
 				"options": {
-					"cwd": "/mnt/data2/ue/ue_5_3_2/UnrealEngine"
+					"cwd": "/mnt/big_ssd/git/ue/UnrealEngine"
 				}
 			},
 			{
@@ -198,13 +198,13 @@
 					"DungeonRaider",
 					"Linux",
 					"Test",
-					"/home/knight/git/ue/DungeonRaider/DungeonRaider.uproject",
+					"/home/bincat/git/ue/DungeonRaider/DungeonRaider.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
 				"type": "shell",
 				"options": {
-					"cwd": "/mnt/data2/ue/ue_5_3_2/UnrealEngine"
+					"cwd": "/mnt/big_ssd/git/ue/UnrealEngine"
 				}
 			},
 			{
@@ -215,7 +215,7 @@
 					"DungeonRaider",
 					"Linux",
 					"Test",
-					"/home/knight/git/ue/DungeonRaider/DungeonRaider.uproject",
+					"/home/bincat/git/ue/DungeonRaider/DungeonRaider.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -224,7 +224,7 @@
 				],
 				"type": "shell",
 				"options": {
-					"cwd": "/mnt/data2/ue/ue_5_3_2/UnrealEngine"
+					"cwd": "/mnt/big_ssd/git/ue/UnrealEngine"
 				}
 			},
 			{
@@ -235,14 +235,14 @@
 					"DungeonRaider",
 					"Linux",
 					"Test",
-					"/home/knight/git/ue/DungeonRaider/DungeonRaider.uproject",
+					"/home/bincat/git/ue/DungeonRaider/DungeonRaider.uproject",
 					"-waitmutex",
 					"-clean"
 				],
 				"problemMatcher": "$msCompile",
 				"type": "shell",
 				"options": {
-					"cwd": "/mnt/data2/ue/ue_5_3_2/UnrealEngine"
+					"cwd": "/mnt/big_ssd/git/ue/UnrealEngine"
 				}
 			},
 			{
@@ -253,13 +253,13 @@
 					"DungeonRaider",
 					"Linux",
 					"Shipping",
-					"/home/knight/git/ue/DungeonRaider/DungeonRaider.uproject",
+					"/home/bincat/git/ue/DungeonRaider/DungeonRaider.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
 				"type": "shell",
 				"options": {
-					"cwd": "/mnt/data2/ue/ue_5_3_2/UnrealEngine"
+					"cwd": "/mnt/big_ssd/git/ue/UnrealEngine"
 				}
 			},
 			{
@@ -270,7 +270,7 @@
 					"DungeonRaider",
 					"Linux",
 					"Shipping",
-					"/home/knight/git/ue/DungeonRaider/DungeonRaider.uproject",
+					"/home/bincat/git/ue/DungeonRaider/DungeonRaider.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -279,7 +279,7 @@
 				],
 				"type": "shell",
 				"options": {
-					"cwd": "/mnt/data2/ue/ue_5_3_2/UnrealEngine"
+					"cwd": "/mnt/big_ssd/git/ue/UnrealEngine"
 				}
 			},
 			{
@@ -290,14 +290,14 @@
 					"DungeonRaider",
 					"Linux",
 					"Shipping",
-					"/home/knight/git/ue/DungeonRaider/DungeonRaider.uproject",
+					"/home/bincat/git/ue/DungeonRaider/DungeonRaider.uproject",
 					"-waitmutex",
 					"-clean"
 				],
 				"problemMatcher": "$msCompile",
 				"type": "shell",
 				"options": {
-					"cwd": "/mnt/data2/ue/ue_5_3_2/UnrealEngine"
+					"cwd": "/mnt/big_ssd/git/ue/UnrealEngine"
 				}
 			},
 			{
@@ -308,13 +308,13 @@
 					"DungeonRaider",
 					"LinuxArm64",
 					"Debug",
-					"/home/knight/git/ue/DungeonRaider/DungeonRaider.uproject",
+					"/home/bincat/git/ue/DungeonRaider/DungeonRaider.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
 				"type": "shell",
 				"options": {
-					"cwd": "/mnt/data2/ue/ue_5_3_2/UnrealEngine"
+					"cwd": "/mnt/big_ssd/git/ue/UnrealEngine"
 				}
 			},
 			{
@@ -325,7 +325,7 @@
 					"DungeonRaider",
 					"LinuxArm64",
 					"Debug",
-					"/home/knight/git/ue/DungeonRaider/DungeonRaider.uproject",
+					"/home/bincat/git/ue/DungeonRaider/DungeonRaider.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -334,7 +334,7 @@
 				],
 				"type": "shell",
 				"options": {
-					"cwd": "/mnt/data2/ue/ue_5_3_2/UnrealEngine"
+					"cwd": "/mnt/big_ssd/git/ue/UnrealEngine"
 				}
 			},
 			{
@@ -345,14 +345,14 @@
 					"DungeonRaider",
 					"LinuxArm64",
 					"Debug",
-					"/home/knight/git/ue/DungeonRaider/DungeonRaider.uproject",
+					"/home/bincat/git/ue/DungeonRaider/DungeonRaider.uproject",
 					"-waitmutex",
 					"-clean"
 				],
 				"problemMatcher": "$msCompile",
 				"type": "shell",
 				"options": {
-					"cwd": "/mnt/data2/ue/ue_5_3_2/UnrealEngine"
+					"cwd": "/mnt/big_ssd/git/ue/UnrealEngine"
 				}
 			},
 			{
@@ -363,13 +363,13 @@
 					"DungeonRaider",
 					"LinuxArm64",
 					"DebugGame",
-					"/home/knight/git/ue/DungeonRaider/DungeonRaider.uproject",
+					"/home/bincat/git/ue/DungeonRaider/DungeonRaider.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
 				"type": "shell",
 				"options": {
-					"cwd": "/mnt/data2/ue/ue_5_3_2/UnrealEngine"
+					"cwd": "/mnt/big_ssd/git/ue/UnrealEngine"
 				}
 			},
 			{
@@ -380,7 +380,7 @@
 					"DungeonRaider",
 					"LinuxArm64",
 					"DebugGame",
-					"/home/knight/git/ue/DungeonRaider/DungeonRaider.uproject",
+					"/home/bincat/git/ue/DungeonRaider/DungeonRaider.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -389,7 +389,7 @@
 				],
 				"type": "shell",
 				"options": {
-					"cwd": "/mnt/data2/ue/ue_5_3_2/UnrealEngine"
+					"cwd": "/mnt/big_ssd/git/ue/UnrealEngine"
 				}
 			},
 			{
@@ -400,14 +400,14 @@
 					"DungeonRaider",
 					"LinuxArm64",
 					"DebugGame",
-					"/home/knight/git/ue/DungeonRaider/DungeonRaider.uproject",
+					"/home/bincat/git/ue/DungeonRaider/DungeonRaider.uproject",
 					"-waitmutex",
 					"-clean"
 				],
 				"problemMatcher": "$msCompile",
 				"type": "shell",
 				"options": {
-					"cwd": "/mnt/data2/ue/ue_5_3_2/UnrealEngine"
+					"cwd": "/mnt/big_ssd/git/ue/UnrealEngine"
 				}
 			},
 			{
@@ -418,13 +418,13 @@
 					"DungeonRaider",
 					"LinuxArm64",
 					"Development",
-					"/home/knight/git/ue/DungeonRaider/DungeonRaider.uproject",
+					"/home/bincat/git/ue/DungeonRaider/DungeonRaider.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
 				"type": "shell",
 				"options": {
-					"cwd": "/mnt/data2/ue/ue_5_3_2/UnrealEngine"
+					"cwd": "/mnt/big_ssd/git/ue/UnrealEngine"
 				}
 			},
 			{
@@ -435,7 +435,7 @@
 					"DungeonRaider",
 					"LinuxArm64",
 					"Development",
-					"/home/knight/git/ue/DungeonRaider/DungeonRaider.uproject",
+					"/home/bincat/git/ue/DungeonRaider/DungeonRaider.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -444,7 +444,7 @@
 				],
 				"type": "shell",
 				"options": {
-					"cwd": "/mnt/data2/ue/ue_5_3_2/UnrealEngine"
+					"cwd": "/mnt/big_ssd/git/ue/UnrealEngine"
 				}
 			},
 			{
@@ -455,14 +455,14 @@
 					"DungeonRaider",
 					"LinuxArm64",
 					"Development",
-					"/home/knight/git/ue/DungeonRaider/DungeonRaider.uproject",
+					"/home/bincat/git/ue/DungeonRaider/DungeonRaider.uproject",
 					"-waitmutex",
 					"-clean"
 				],
 				"problemMatcher": "$msCompile",
 				"type": "shell",
 				"options": {
-					"cwd": "/mnt/data2/ue/ue_5_3_2/UnrealEngine"
+					"cwd": "/mnt/big_ssd/git/ue/UnrealEngine"
 				}
 			},
 			{
@@ -473,13 +473,13 @@
 					"DungeonRaider",
 					"LinuxArm64",
 					"Test",
-					"/home/knight/git/ue/DungeonRaider/DungeonRaider.uproject",
+					"/home/bincat/git/ue/DungeonRaider/DungeonRaider.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
 				"type": "shell",
 				"options": {
-					"cwd": "/mnt/data2/ue/ue_5_3_2/UnrealEngine"
+					"cwd": "/mnt/big_ssd/git/ue/UnrealEngine"
 				}
 			},
 			{
@@ -490,7 +490,7 @@
 					"DungeonRaider",
 					"LinuxArm64",
 					"Test",
-					"/home/knight/git/ue/DungeonRaider/DungeonRaider.uproject",
+					"/home/bincat/git/ue/DungeonRaider/DungeonRaider.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -499,7 +499,7 @@
 				],
 				"type": "shell",
 				"options": {
-					"cwd": "/mnt/data2/ue/ue_5_3_2/UnrealEngine"
+					"cwd": "/mnt/big_ssd/git/ue/UnrealEngine"
 				}
 			},
 			{
@@ -510,14 +510,14 @@
 					"DungeonRaider",
 					"LinuxArm64",
 					"Test",
-					"/home/knight/git/ue/DungeonRaider/DungeonRaider.uproject",
+					"/home/bincat/git/ue/DungeonRaider/DungeonRaider.uproject",
 					"-waitmutex",
 					"-clean"
 				],
 				"problemMatcher": "$msCompile",
 				"type": "shell",
 				"options": {
-					"cwd": "/mnt/data2/ue/ue_5_3_2/UnrealEngine"
+					"cwd": "/mnt/big_ssd/git/ue/UnrealEngine"
 				}
 			},
 			{
@@ -528,13 +528,13 @@
 					"DungeonRaider",
 					"LinuxArm64",
 					"Shipping",
-					"/home/knight/git/ue/DungeonRaider/DungeonRaider.uproject",
+					"/home/bincat/git/ue/DungeonRaider/DungeonRaider.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
 				"type": "shell",
 				"options": {
-					"cwd": "/mnt/data2/ue/ue_5_3_2/UnrealEngine"
+					"cwd": "/mnt/big_ssd/git/ue/UnrealEngine"
 				}
 			},
 			{
@@ -545,7 +545,7 @@
 					"DungeonRaider",
 					"LinuxArm64",
 					"Shipping",
-					"/home/knight/git/ue/DungeonRaider/DungeonRaider.uproject",
+					"/home/bincat/git/ue/DungeonRaider/DungeonRaider.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -554,7 +554,7 @@
 				],
 				"type": "shell",
 				"options": {
-					"cwd": "/mnt/data2/ue/ue_5_3_2/UnrealEngine"
+					"cwd": "/mnt/big_ssd/git/ue/UnrealEngine"
 				}
 			},
 			{
@@ -565,14 +565,14 @@
 					"DungeonRaider",
 					"LinuxArm64",
 					"Shipping",
-					"/home/knight/git/ue/DungeonRaider/DungeonRaider.uproject",
+					"/home/bincat/git/ue/DungeonRaider/DungeonRaider.uproject",
 					"-waitmutex",
 					"-clean"
 				],
 				"problemMatcher": "$msCompile",
 				"type": "shell",
 				"options": {
-					"cwd": "/mnt/data2/ue/ue_5_3_2/UnrealEngine"
+					"cwd": "/mnt/big_ssd/git/ue/UnrealEngine"
 				}
 			},
 			{
@@ -583,13 +583,13 @@
 					"DungeonRaiderEditor",
 					"Linux",
 					"Debug",
-					"/home/knight/git/ue/DungeonRaider/DungeonRaider.uproject",
+					"/home/bincat/git/ue/DungeonRaider/DungeonRaider.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
 				"type": "shell",
 				"options": {
-					"cwd": "/mnt/data2/ue/ue_5_3_2/UnrealEngine"
+					"cwd": "/mnt/big_ssd/git/ue/UnrealEngine"
 				}
 			},
 			{
@@ -600,7 +600,7 @@
 					"DungeonRaiderEditor",
 					"Linux",
 					"Debug",
-					"/home/knight/git/ue/DungeonRaider/DungeonRaider.uproject",
+					"/home/bincat/git/ue/DungeonRaider/DungeonRaider.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -609,7 +609,7 @@
 				],
 				"type": "shell",
 				"options": {
-					"cwd": "/mnt/data2/ue/ue_5_3_2/UnrealEngine"
+					"cwd": "/mnt/big_ssd/git/ue/UnrealEngine"
 				}
 			},
 			{
@@ -620,14 +620,14 @@
 					"DungeonRaiderEditor",
 					"Linux",
 					"Debug",
-					"/home/knight/git/ue/DungeonRaider/DungeonRaider.uproject",
+					"/home/bincat/git/ue/DungeonRaider/DungeonRaider.uproject",
 					"-waitmutex",
 					"-clean"
 				],
 				"problemMatcher": "$msCompile",
 				"type": "shell",
 				"options": {
-					"cwd": "/mnt/data2/ue/ue_5_3_2/UnrealEngine"
+					"cwd": "/mnt/big_ssd/git/ue/UnrealEngine"
 				}
 			},
 			{
@@ -638,13 +638,13 @@
 					"DungeonRaiderEditor",
 					"Linux",
 					"DebugGame",
-					"/home/knight/git/ue/DungeonRaider/DungeonRaider.uproject",
+					"/home/bincat/git/ue/DungeonRaider/DungeonRaider.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
 				"type": "shell",
 				"options": {
-					"cwd": "/mnt/data2/ue/ue_5_3_2/UnrealEngine"
+					"cwd": "/mnt/big_ssd/git/ue/UnrealEngine"
 				}
 			},
 			{
@@ -655,7 +655,7 @@
 					"DungeonRaiderEditor",
 					"Linux",
 					"DebugGame",
-					"/home/knight/git/ue/DungeonRaider/DungeonRaider.uproject",
+					"/home/bincat/git/ue/DungeonRaider/DungeonRaider.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -664,7 +664,7 @@
 				],
 				"type": "shell",
 				"options": {
-					"cwd": "/mnt/data2/ue/ue_5_3_2/UnrealEngine"
+					"cwd": "/mnt/big_ssd/git/ue/UnrealEngine"
 				}
 			},
 			{
@@ -675,14 +675,14 @@
 					"DungeonRaiderEditor",
 					"Linux",
 					"DebugGame",
-					"/home/knight/git/ue/DungeonRaider/DungeonRaider.uproject",
+					"/home/bincat/git/ue/DungeonRaider/DungeonRaider.uproject",
 					"-waitmutex",
 					"-clean"
 				],
 				"problemMatcher": "$msCompile",
 				"type": "shell",
 				"options": {
-					"cwd": "/mnt/data2/ue/ue_5_3_2/UnrealEngine"
+					"cwd": "/mnt/big_ssd/git/ue/UnrealEngine"
 				}
 			},
 			{
@@ -693,13 +693,13 @@
 					"DungeonRaiderEditor",
 					"Linux",
 					"Development",
-					"/home/knight/git/ue/DungeonRaider/DungeonRaider.uproject",
+					"/home/bincat/git/ue/DungeonRaider/DungeonRaider.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
 				"type": "shell",
 				"options": {
-					"cwd": "/mnt/data2/ue/ue_5_3_2/UnrealEngine"
+					"cwd": "/mnt/big_ssd/git/ue/UnrealEngine"
 				}
 			},
 			{
@@ -710,7 +710,7 @@
 					"DungeonRaiderEditor",
 					"Linux",
 					"Development",
-					"/home/knight/git/ue/DungeonRaider/DungeonRaider.uproject",
+					"/home/bincat/git/ue/DungeonRaider/DungeonRaider.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -719,7 +719,7 @@
 				],
 				"type": "shell",
 				"options": {
-					"cwd": "/mnt/data2/ue/ue_5_3_2/UnrealEngine"
+					"cwd": "/mnt/big_ssd/git/ue/UnrealEngine"
 				}
 			},
 			{
@@ -730,14 +730,14 @@
 					"DungeonRaiderEditor",
 					"Linux",
 					"Development",
-					"/home/knight/git/ue/DungeonRaider/DungeonRaider.uproject",
+					"/home/bincat/git/ue/DungeonRaider/DungeonRaider.uproject",
 					"-waitmutex",
 					"-clean"
 				],
 				"problemMatcher": "$msCompile",
 				"type": "shell",
 				"options": {
-					"cwd": "/mnt/data2/ue/ue_5_3_2/UnrealEngine"
+					"cwd": "/mnt/big_ssd/git/ue/UnrealEngine"
 				}
 			}
 		]
@@ -748,100 +748,100 @@
 			{
 				"name": "Launch DungeonRaider (Debug)",
 				"request": "launch",
-				"program": "/home/knight/git/ue/DungeonRaider/Binaries/Linux/DungeonRaider-Linux-Debug",
+				"program": "/home/bincat/git/ue/DungeonRaider/Binaries/Linux/DungeonRaider-Linux-Debug",
 				"preLaunchTask": "DungeonRaider Linux Debug Build",
 				"args": [
 				],
-				"cwd": "/mnt/data2/ue/ue_5_3_2/UnrealEngine",
+				"cwd": "/mnt/big_ssd/git/ue/UnrealEngine",
 				"type": "cppdbg",
-				"visualizerFile": "/mnt/data2/ue/ue_5_3_2/UnrealEngine/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+				"visualizerFile": "/mnt/big_ssd/git/ue/UnrealEngine/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
 				"showDisplayString": true
 			},
 			{
 				"name": "Launch DungeonRaider (DebugGame)",
 				"request": "launch",
-				"program": "/home/knight/git/ue/DungeonRaider/Binaries/Linux/DungeonRaider-Linux-DebugGame",
+				"program": "/home/bincat/git/ue/DungeonRaider/Binaries/Linux/DungeonRaider-Linux-DebugGame",
 				"preLaunchTask": "DungeonRaider Linux DebugGame Build",
 				"args": [
 				],
-				"cwd": "/mnt/data2/ue/ue_5_3_2/UnrealEngine",
+				"cwd": "/mnt/big_ssd/git/ue/UnrealEngine",
 				"type": "cppdbg",
-				"visualizerFile": "/mnt/data2/ue/ue_5_3_2/UnrealEngine/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+				"visualizerFile": "/mnt/big_ssd/git/ue/UnrealEngine/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
 				"showDisplayString": true
 			},
 			{
 				"name": "Launch DungeonRaider (Development)",
 				"request": "launch",
-				"program": "/home/knight/git/ue/DungeonRaider/Binaries/Linux/DungeonRaider",
+				"program": "/home/bincat/git/ue/DungeonRaider/Binaries/Linux/DungeonRaider",
 				"preLaunchTask": "DungeonRaider Linux Development Build",
 				"args": [
 				],
-				"cwd": "/mnt/data2/ue/ue_5_3_2/UnrealEngine",
+				"cwd": "/mnt/big_ssd/git/ue/UnrealEngine",
 				"type": "cppdbg",
-				"visualizerFile": "/mnt/data2/ue/ue_5_3_2/UnrealEngine/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+				"visualizerFile": "/mnt/big_ssd/git/ue/UnrealEngine/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
 				"showDisplayString": true
 			},
 			{
 				"name": "Launch DungeonRaider (Test)",
 				"request": "launch",
-				"program": "/home/knight/git/ue/DungeonRaider/Binaries/Linux/DungeonRaider-Linux-Test",
+				"program": "/home/bincat/git/ue/DungeonRaider/Binaries/Linux/DungeonRaider-Linux-Test",
 				"preLaunchTask": "DungeonRaider Linux Test Build",
 				"args": [
 				],
-				"cwd": "/mnt/data2/ue/ue_5_3_2/UnrealEngine",
+				"cwd": "/mnt/big_ssd/git/ue/UnrealEngine",
 				"type": "cppdbg",
-				"visualizerFile": "/mnt/data2/ue/ue_5_3_2/UnrealEngine/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+				"visualizerFile": "/mnt/big_ssd/git/ue/UnrealEngine/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
 				"showDisplayString": true
 			},
 			{
 				"name": "Launch DungeonRaider (Shipping)",
 				"request": "launch",
-				"program": "/home/knight/git/ue/DungeonRaider/Binaries/Linux/DungeonRaider-Linux-Shipping",
+				"program": "/home/bincat/git/ue/DungeonRaider/Binaries/Linux/DungeonRaider-Linux-Shipping",
 				"preLaunchTask": "DungeonRaider Linux Shipping Build",
 				"args": [
 				],
-				"cwd": "/mnt/data2/ue/ue_5_3_2/UnrealEngine",
+				"cwd": "/mnt/big_ssd/git/ue/UnrealEngine",
 				"type": "cppdbg",
-				"visualizerFile": "/mnt/data2/ue/ue_5_3_2/UnrealEngine/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+				"visualizerFile": "/mnt/big_ssd/git/ue/UnrealEngine/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
 				"showDisplayString": true
 			},
 			{
 				"name": "Launch DungeonRaiderEditor (Debug)",
 				"request": "launch",
-				"program": "/mnt/data2/ue/ue_5_3_2/UnrealEngine/Engine/Binaries/Linux/UnrealEditor-Linux-Debug",
+				"program": "/mnt/big_ssd/git/ue/UnrealEngine/Engine/Binaries/Linux/UnrealEditor-Linux-Debug",
 				"preLaunchTask": "DungeonRaiderEditor Linux Debug Build",
 				"args": [
-					"/home/knight/git/ue/DungeonRaider/DungeonRaider.uproject"
+					"/home/bincat/git/ue/DungeonRaider/DungeonRaider.uproject"
 				],
-				"cwd": "/mnt/data2/ue/ue_5_3_2/UnrealEngine",
+				"cwd": "/mnt/big_ssd/git/ue/UnrealEngine",
 				"type": "cppdbg",
-				"visualizerFile": "/mnt/data2/ue/ue_5_3_2/UnrealEngine/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+				"visualizerFile": "/mnt/big_ssd/git/ue/UnrealEngine/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
 				"showDisplayString": true
 			},
 			{
 				"name": "Launch DungeonRaiderEditor (DebugGame)",
 				"request": "launch",
-				"program": "/mnt/data2/ue/ue_5_3_2/UnrealEngine/Engine/Binaries/Linux/UnrealEditor-Linux-DebugGame",
+				"program": "/mnt/big_ssd/git/ue/UnrealEngine/Engine/Binaries/Linux/UnrealEditor-Linux-DebugGame",
 				"preLaunchTask": "DungeonRaiderEditor Linux DebugGame Build",
 				"args": [
-					"/home/knight/git/ue/DungeonRaider/DungeonRaider.uproject"
+					"/home/bincat/git/ue/DungeonRaider/DungeonRaider.uproject"
 				],
-				"cwd": "/mnt/data2/ue/ue_5_3_2/UnrealEngine",
+				"cwd": "/mnt/big_ssd/git/ue/UnrealEngine",
 				"type": "cppdbg",
-				"visualizerFile": "/mnt/data2/ue/ue_5_3_2/UnrealEngine/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+				"visualizerFile": "/mnt/big_ssd/git/ue/UnrealEngine/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
 				"showDisplayString": true
 			},
 			{
 				"name": "Launch DungeonRaiderEditor (Development)",
 				"request": "launch",
-				"program": "/mnt/data2/ue/ue_5_3_2/UnrealEngine/Engine/Binaries/Linux/UnrealEditor",
+				"program": "/mnt/big_ssd/git/ue/UnrealEngine/Engine/Binaries/Linux/UnrealEditor",
 				"preLaunchTask": "DungeonRaiderEditor Linux Development Build",
 				"args": [
-					"/home/knight/git/ue/DungeonRaider/DungeonRaider.uproject"
+					"/home/bincat/git/ue/DungeonRaider/DungeonRaider.uproject"
 				],
-				"cwd": "/mnt/data2/ue/ue_5_3_2/UnrealEngine",
+				"cwd": "/mnt/big_ssd/git/ue/UnrealEngine",
 				"type": "cppdbg",
-				"visualizerFile": "/mnt/data2/ue/ue_5_3_2/UnrealEngine/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+				"visualizerFile": "/mnt/big_ssd/git/ue/UnrealEngine/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
 				"showDisplayString": true
 			},
 			{
@@ -849,11 +849,11 @@
 				"type": "coreclr",
 				"request": "launch",
 				"preLaunchTask": "UnrealBuildTool Linux Development Build",
-				"program": "/mnt/data2/ue/ue_5_3_2/UnrealEngine/Engine/Build/BatchFiles/RunUBT.bat",
+				"program": "/mnt/big_ssd/git/ue/UnrealEngine/Engine/Build/BatchFiles/RunUBT.bat",
 				"args": [
 					"-projectfiles",
 					"-vscode",
-					"-project=/home/knight/git/ue/DungeonRaider/DungeonRaider.uproject",
+					"-project=/home/bincat/git/ue/DungeonRaider/DungeonRaider.uproject",
 					"-game",
 					"-engine",
 					"-dotnet"
@@ -861,7 +861,7 @@
 				"console": "internalConsole",
 				"internalConsoleOptions": "openOnSessionStart",
 				"stopAtEntry": false,
-				"cwd": "/mnt/data2/ue/ue_5_3_2/UnrealEngine"
+				"cwd": "/mnt/big_ssd/git/ue/UnrealEngine"
 			}
 		]
 	}
