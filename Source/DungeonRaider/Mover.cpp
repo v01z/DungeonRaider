@@ -33,4 +33,5 @@ void UMover::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponent
 	UE_LOG(LogTemp, Display, TEXT("Mover is ticking! Owner name is '%s'\n"), *Owner->GetName());
 	UE_LOG(LogTemp, Display, TEXT("Mover Owner address is '%u'\n"), Owner);
 	UE_LOG(LogTemp, Display, TEXT("Address of Owner is '%p'\n"), Owner);
+	UE_LOG(LogTemp, Display, TEXT("OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO"));
 }
