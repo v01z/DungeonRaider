@@ -44,4 +44,20 @@ void UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompone
 
 	// UE_LOG(LogTemp, Display, TEXT("**************\nStart vector is: %s"), *(Start.ToCompactString()));
 	// UE_LOG(LogTemp, Display, TEXT("End vector is: %s"), *(End.ToCompactString()));
+
+	float Damage = 77;
+
+	float &DamageRef = Damage;
+	PrintDamage(DamageRef);
+}
+
+void UGrabber::PrintDamage(const float &Damage)
+{
+	UE_LOG(LogTemp, Display, TEXT("Damage is: %f"), Damage);
+}
+
+bool UGrabber::HasDamage(float &OutDamage)
+{
+	OutDamage = 3;
+	return true;
 }
